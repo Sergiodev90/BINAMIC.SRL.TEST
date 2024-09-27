@@ -13,7 +13,7 @@
     <h1>Binamic SRL</h1>
     <h5>Introduci i tuoi dati</h5>
 
-    <form action="/submit" method="POST">
+    <form action="../Controllers/submit.php" method="POST">
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome" name="nome" required><br><br>
 
@@ -45,4 +45,4 @@
 </body>
 </html>
 
-    
+
